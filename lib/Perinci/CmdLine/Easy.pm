@@ -142,10 +142,13 @@ To do bash tab completion:
 
 =head1 DESCRIPTION
 
-Perinci::CmdLine::Easy provides an easier alternative to L<Perinci::CmdLine>.
-You do not need to know any L<Rinci> or L<Riap> concepts, or provide your own
-metadata. Just supply the subroutine, summary, list of arguments, and you're
-good to go. Of course, if you need more customization, there's Perinci::CmdLine.
+B<NOTE: This is an experimental module>.
+
+L<Perinci::CmdLine::Easy> is a thin wrapper for L<Perinci::CmdLine> and is meant
+to be a gentler or easier alternative to Perinci::CmdLine. You do not need to
+know any L<Rinci> or L<Riap> concepts, or provide your own metadata. Just supply
+the subroutine, summary, list of arguments, and you're good to go. Of course, if
+you need more customization, there's Perinci::CmdLine.
 
 What you'll get:
 
