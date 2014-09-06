@@ -41,7 +41,7 @@ _
         },
     },
     result_naked => 1,
-    "_perinci.sub.wrapper.validate_args" => 0,
+    "x.perinci.sub.wrapper.disable_validate_args" => 1,
 };
 sub run_cmdline_app {
     my %args = @_; # VALIDATE_ARGS
