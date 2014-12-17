@@ -1,5 +1,8 @@
 package Perinci::CmdLine::Easy;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
@@ -8,9 +11,6 @@ use Perinci::CmdLine;
 require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT_OK = qw(run_cmdline_app);
-
-# DATE
-# VERSION
 
 our %SPEC;
 
@@ -96,7 +96,7 @@ sub run_cmdline_app {
 }
 
 1;
-# ABSTRACT: A simple interface to run a subroutine as command-line app
+# ABSTRACT:
 
 =for Pod::Coverage .+
 
